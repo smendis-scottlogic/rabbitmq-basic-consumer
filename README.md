@@ -8,19 +8,19 @@
 
 To create a new docker container run
 
-`docker-compose -p "rabbitmq-poc" up`
+`docker-compose -p "rabbitmq-container" up`
 
 To restart an existing container
 
-`docker-compose -p "rabbitmq-poc" start`
+`docker-compose -p "rabbitmq-container" start`
 
 To stop a container
 
-`docker-compose -p "rabbitmq-poc" stop`
+`docker-compose -p "rabbitmq-container" stop`
 
 To destroy an existing container
 
-`docker-compose -p "rabbitmq-poc" down`
+`docker-compose -p "rabbitmq-container" down`
 
 ### Management Console
 

@@ -14,18 +14,6 @@ public class AppProperties {
 
     private String directQueue;
 
-    private int retryAttempts;
-
-    private int backoffInterval;
-
-    private int backoffMultiplier;
-
-    private int backoffMaxInterval;
-
-    private int concurrentConsumers;
-
-    private int maxConcurrentConsumers;
-
     public String getDirectDeadLetterQueue() {
         return this.directQueue + ".dlq";
     }
